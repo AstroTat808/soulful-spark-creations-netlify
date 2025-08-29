@@ -1,0 +1,13 @@
+﻿# dependencies
+node_modules/
+pnpm-lock.yaml
+# next
+.next/
+out/
+# env
+.env
+.env.*
+# os/editor
+.DS_Store
+Thumbs.db
+.vscode/

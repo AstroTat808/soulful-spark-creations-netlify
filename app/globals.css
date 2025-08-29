@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #f8f5f2; --ink: #2e2a28; }
+html, body { height: 100%; background: var(--bg); color: var(--ink); }
+.antialiased { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+::selection { background: #2e2a28; color: white; }
