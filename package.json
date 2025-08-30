@@ -1,16 +1,12 @@
 {
   "name": "soulful-spark-creations",
   "private": true,
-<<<<<<< HEAD
   "version": "0.5.0",
-=======
-  "version": "0.3.0",
->>>>>>> 511f9e7dd9c143dea6aaac2bc7368ac93b7fddfb
+  "packageManager": "npm@10.8.2",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-<<<<<<< HEAD
     "lint": "echo Lint disabled for this project",
     "images": "node scripts/images.js",
     "dev:light": "cross-env NEXT_SEMI_DISABLE_LINT=1 NODE_OPTIONS=--max-old-space-size=2048 next dev",
@@ -23,15 +19,17 @@
     "ps-list": "^8.1.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.5.4",
+    "@netlify/plugin-nextjs": "^5.8.0",
     "@types/node": "^20.14.11",
     "@types/react": "^18.3.5",
-    "sharp": "^0.33.4",
+    "autoprefixer": "^10.4.17",
     "cross-env": "^7.0.3",
-    "@netlify/plugin-nextjs": "^5.8.0"
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.35",
+    "sharp": "^0.33.4",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.4"
   },
   "overrides": {
     "glob": "^10.3.10",
@@ -42,25 +40,8 @@
       "next",
       "next/core-web-vitals"
     ]
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
-=======
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "14.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "24.3.0",
-    "@types/react": "19.1.12",
-    "autoprefixer": "^10.4.17",
-    "eslint": "^8.56.0",
-    "eslint-config-next": "14.2.5",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.3.3"
-  }
-}
->>>>>>> 511f9e7dd9c143dea6aaac2bc7368ac93b7fddfb
