@@ -1,0 +1,5 @@
+﻿* text=auto
+# Keep shell/scripts LF on all platforms
+*.sh text eol=lf
+# Ensure Netlify config uses LF
+netlify.toml text eol=lf
