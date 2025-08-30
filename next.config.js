@@ -1,11 +1,10 @@
-/** @type {import('next').NextConfig} */
-<<<<<<< HEAD
+﻿/** @type {import("next").NextConfig} */
 const nextConfig = {
-  eslint: { ignoreDuringBuilds: true },
+  reactStrictMode: true,
+  eslint: {
+    // Allow production builds to succeed even if there are ESLint errors.
+    ignoreDuringBuilds: true
+  }
 };
 
 module.exports = nextConfig;
-=======
-const nextConfig = {}
-module.exports = nextConfig
->>>>>>> 511f9e7dd9c143dea6aaac2bc7368ac93b7fddfb
