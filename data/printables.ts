@@ -9,7 +9,37 @@ export type Printable = {
 };
 
 export const printables: Printable[] = [
+<<<<<<< HEAD
   { slug: 'wedding-vision-board', title: 'Wedding Vision Board', price: 12, category: 'planning', style: 'classic', description: 'Create with intention and stay true to your dream day. Includes guided prompts and cutouts.', image: '/images/printables/vision-board.jpg' },
   { slug: 'vendor-intuition-cards', title: 'Vendor Intuition Cards', price: 9, category: 'mantras', style: 'boho', description: 'Choose your team with alignment, not anxiety. Pocket-size mantras for vendor meetings.', image: '/images/printables/vendor-cards.jpg' },
   { slug: 'ritual-planning-journal', title: 'Ritual Planning Journal', price: 14, category: 'rituals', style: 'modern', description: 'Keep calm with moon rituals, crystal spreads, and loving prompts. 40 printable pages.', image: '/images/printables/ritual-journal.jpg' },
+=======
+  {
+    slug: 'wedding-vision-board',
+    title: 'Wedding Vision Board',
+    price: 12,
+    category: 'planning',
+    style: 'classic',
+    description: 'Create with intention and stay true to your dream day. Includes guided prompts and cutouts.',
+    image: '/images/printables/vision-board.jpg',
+  },
+  {
+    slug: 'vendor-intuition-cards',
+    title: 'Vendor Intuition Cards',
+    price: 9,
+    category: 'mantras',
+    style: 'boho',
+    description: 'Choose your team with alignment, not anxiety. Pocket-size mantras for vendor meetings.',
+    image: '/images/printables/vendor-cards.jpg',
+  },
+  {
+    slug: 'ritual-planning-journal',
+    title: 'Ritual Planning Journal',
+    price: 14,
+    category: 'rituals',
+    style: 'modern',
+    description: 'Keep calm with moon rituals, crystal spreads, and loving prompts. 40 printable pages.',
+    image: '/images/printables/ritual-journal.jpg',
+  },
+>>>>>>> 511f9e7dd9c143dea6aaac2bc7368ac93b7fddfb
 ];

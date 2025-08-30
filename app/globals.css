@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 :root { --bg: #F6F1EB; --ink: #2A2329; --gold: #C8A26A; }
 
 html, body { height: 100%; background: var(--bg); color: var(--ink); }
@@ -26,3 +27,9 @@ html, body { height: 100%; background: var(--bg); color: var(--ink); }
   --line: rgba(78,59,79,.25);
   background: linear-gradient(var(--line),var(--line)) center/100% 1px no-repeat;
 }
+=======
+:root { --bg: #f8f5f2; --ink: #2e2a28; }
+html, body { height: 100%; background: var(--bg); color: var(--ink); }
+.antialiased { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+::selection { background: #2e2a28; color: white; }
+>>>>>>> 511f9e7dd9c143dea6aaac2bc7368ac93b7fddfb

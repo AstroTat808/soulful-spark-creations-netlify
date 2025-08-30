@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+<<<<<<< HEAD
   content: ["./app/**/*.{js,ts,jsx,tsx,mdx}","./components/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
@@ -30,5 +31,12 @@ module.exports = {
       animation: { fadeUp: "fadeUp .6s ease-out both" }
     },
   },
+=======
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: { extend: {} },
+>>>>>>> 511f9e7dd9c143dea6aaac2bc7368ac93b7fddfb
   plugins: [],
 };
