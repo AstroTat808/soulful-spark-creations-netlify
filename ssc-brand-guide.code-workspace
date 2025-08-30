@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {},
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Dev (Light)",
+        "type": "shell",
+        "command": "npm run dev:light",
+        "group": "build",
+        "problemMatcher": []
+      },
+      {
+        "label": "Memory Check",
+        "type": "shell",
+        "command": "npm run mem",
+        "group": "test",
+        "problemMatcher": []
+      }
+    ]
+  }
+}

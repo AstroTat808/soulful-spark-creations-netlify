@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Soulful Spark Creations — Brand Styleguide</title>
+<style>
+  @page { size: A4; margin: 14mm; }
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color:#2A2329; }
+  h1 { font-size: 24px; margin: 0 0 6px; }
+  h2 { font-size: 18px; margin: 18px 0 8px; }
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .swatch { border: 1px solid rgba(0,0,0,.08); border-radius: 8px; overflow: hidden; }
+  .chip { height: 48px; }
+  .meta { font-size: 12px; padding: 6px 8px; display:flex; justify-content:space-between; }
+</style>
+</head>
+<body>
+  <h1>Soulful Spark Creations — Brand Styleguide</h1>
+  <p>Core palette, typography, and tokens (print export)</p>
+
+  <h2>Palette</h2>
+  <div class="grid">
+    <div class="swatch"><div class="chip" style="background:#F6F1EB;"></div><div class="meta"><span>ivory</span><code>#F6F1EB</code></div></div><div class="swatch"><div class="chip" style="background:#4E3B4F;"></div><div class="meta"><span>smokyPlum</span><code>#4E3B4F</code></div></div><div class="swatch"><div class="chip" style="background:#A8B7A6;"></div><div class="meta"><span>sage</span><code>#A8B7A6</code></div></div><div class="swatch"><div class="chip" style="background:#7E9284;"></div><div class="meta"><span>sageDeep</span><code>#7E9284</code></div></div><div class="swatch"><div class="chip" style="background:#E7B7C9;"></div><div class="meta"><span>blush</span><code>#E7B7C9</code></div></div><div class="swatch"><div class="chip" style="background:#C9B7DD;"></div><div class="meta"><span>lavender</span><code>#C9B7DD</code></div></div><div class="swatch"><div class="chip" style="background:#C8A26A;"></div><div class="meta"><span>gold</span><code>#C8A26A</code></div></div><div class="swatch"><div class="chip" style="background:#2A2329;"></div><div class="meta"><span>ink</span><code>#2A2329</code></div></div><div class="swatch"><div class="chip" style="background:#FFFFFF;"></div><div class="meta"><span>white</span><code>#FFFFFF</code></div></div>
+  </div>
+
+  <h2>Typography</h2>
+  <p><strong>Playfair Display</strong> — headings</p>
+  <p>Libre Franklin — body</p>
+
+  <h2>Tokens</h2>
+  <ul>
+    <li>bg-ivory / text-smokyplum / text-ink / text-white</li>
+    <li>bg-sage hover:bg-sagedeep / bg-blush / bg-lavender / bg-gold</li>
+    <li>Utilities: shadow-soft, foil-outline, paper-grain, container</li>
+  </ul>
+  <p style="font-size:11px;opacity:.7">Print this page to PDF for distribution. Source of truth remains in tailwind.config.js and /styleguide.</p>
+</body>
+</html>

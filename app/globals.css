@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #F6F1EB; --ink: #2A2329; --gold: #C8A26A; }
+
+html, body { height: 100%; background: var(--bg); color: var(--ink); }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+.foil-outline {
+  background: linear-gradient(var(--bg), var(--bg)) padding-box,
+              conic-gradient(from 200deg, #DCC08A, #B88B40, #D6B16E, #A9792E, #E0C07D, #B78E44, #D9B86E) border-box;
+  border: 2px solid transparent;
+  border-radius: 0.75rem;
+}
+
+.paper-grain { position: relative; }
+.paper-grain::after {
+  content: "";
+  position: absolute; inset: 0; pointer-events: none;
+  background-image: url('/textures/grain.png');
+  opacity: .08; mix-blend-mode: multiply;
+}
+
+.divider-floral {
+  --line: rgba(78,59,79,.25);
+  background: linear-gradient(var(--line),var(--line)) center/100% 1px no-repeat;
+}

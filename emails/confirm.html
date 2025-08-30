@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html><head>
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
+<style>
+/* Mobile full-width buttons */
+@media only screen and (max-width: 480px) {
+  .btn-primary { display:block !important; width:100% !important; text-align:center !important; }
+}
+
+/* Dark mode safety (some clients still apply auto invert) */
+@media (prefers-color-scheme: dark) {
+  body { background:#1f1a20 !important; }
+  .card { background:#2a2329 !important; border-color:#3a2f3b !important; }
+  .ink { color:#fff !important; }
+  .muted { color:#d6d0ca !important; }
+  .btn-primary { background:#A8B7A6 !important; color:#ffffff !important; }
+}
+</style>
+
+</head><body class="ink" style="font-family:Arial,Helvetica,sans-serif;background:#F6F1EB;padding:24px;color:#2A2329">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+    <tr><td align="center">
+      <table role="presentation" width="640" cellpadding="0" cellspacing="0" class="card" style="background:#fff;border-radius:16px;padding:24px;border:1px solid #E5DCD2">
+        <tr><td align="center" style="padding:8px 0 16px">
+          <img src="{{logo_url}}" alt="Soulful Spark Creations" style="display:block;max-width:200px;height:auto"/>
+        </td></tr>
+        <tr><td>
+          <h1 style="margin:0 0 8px 0;color:#4E3B4F">Confirm your subscription</h1>
+          <p>Hi there—please confirm your email so we can send your mini‑planner.</p>
+          <p style="margin:16px 0">
+            <a href="{{confirm_url}}" class="btn-primary" style="background:#A8B7A6;color:#fff;text-decoration:none;padding:12px 18px;border-radius:10px;display:inline-block">Confirm &amp; get the mini‑planner</a>
+          </p>
+          <p class="muted" style="font-size:12px;color:#6B6B6B">If you didn’t request this, ignore this message.</p>
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
+</body></html>

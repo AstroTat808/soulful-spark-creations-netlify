@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "wedding-planning-guidebook",
+    "title": "Wedding Planning Guidebook",
+    "price": 19,
+    "badge": "Best Seller",
+    "summary": "A calm, step\u2011by\u2011step companion with checklists, rituals, and worksheets.",
+    "image": "/images/product-guidebook.jpg"
+  },
+  {
+    "slug": "vendor-intuition-cards",
+    "title": "Vendor Intuition Cards",
+    "price": 12,
+    "badge": "New",
+    "summary": "36 gentle prompts to choose your dream team with alignment.",
+    "image": "/images/product-cards.jpg"
+  },
+  {
+    "slug": "vision-board-templates",
+    "title": "Vision Board Templates",
+    "price": 14,
+    "badge": "Editable",
+    "summary": "Keep your dream day vivid with printable, editable collaging pages.",
+    "image": "/images/product-vision.jpg"
+  }
+]

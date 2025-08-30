@@ -1,0 +1,59 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "typescript.tsserver.maxTsServerMemory": 2048,
+    "eslint.validate": [
+      "typescript",
+      "typescriptreact",
+      "javascript",
+      "javascriptreact"
+    ],
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
+    "terminal.integrated.defaultProfile.windows": "PowerShell"
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Dev: Light (Next)",
+        "type": "shell",
+        "command": "npm run dev:light",
+        "problemMatcher": []
+      },
+      {
+        "label": "Dev: Normal (Next)",
+        "type": "shell",
+        "command": "npm run dev",
+        "problemMatcher": []
+      },
+      {
+        "label": "Build (production)",
+        "type": "shell",
+        "command": "npm run build",
+        "problemMatcher": []
+      },
+      {
+        "label": "Images: Generate responsive variants",
+        "type": "shell",
+        "command": "npm run images",
+        "problemMatcher": []
+      },
+      {
+        "label": "Tools: Memory table",
+        "type": "shell",
+        "command": "npm run mem",
+        "problemMatcher": []
+      }
+    ]
+  }
+}
